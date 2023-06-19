@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+:root {
+    --ff-primary: 'poppins', sans-serif;
+    --ff-secondary: 'Inter', sans-serif;
+    --ff-tertiary: 'sen' sans-serif;
+
+
+
+
+
+
+
+    --fs-xxs: 12px;
+    --fs-xs: 13px;
+    --fs-sm: 14px;
+    --fs-smm: 15px;
+    --fs-md: 16px;
+    --fs-2md: 18px;
+    --fs-lg: 19px;
+    --fs-2lg: 20px;
+    --fs-xl: 21px;
+    --fs-xxl: 22px;
+    --fs-xxxl: 23px;
+    --fs-4xl: 24px;
+    --fs-5xl: 32px;
+    --fs-6xl: 33px;
+    --fs-7xl: 34px;
+    --fs-8xl: 40px;
+    --fs-9xl: 42px;
+
+
+
+    --extraLarge: 800;
+    --extraBold: 700;
+    --bold: 600;
+    --semiBold: 500;
+    --medium: 400;
+    --regular: 300;
+
+    --black-color: #2d3234;
+    --primary-color: #ffc14b;
+    --secondary-color: #535f62;
+    --white-color: #FFFFFF;
+    --dark-color: #f66f4d;
+    --light-color: #939597;
+    --success-color: #ffce82;
+    --info-color: #ffd482;
+    --light-color: #bdbf60;
+    --gray-color: #676a6c;
+
+}
+
+.navLinks {
+    font-family: var(--ff-primary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-md);
+}
+
+.nav-bar-btn {
+    font-family: var(--ff-secondary);
+    color: var(--primary-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-sm);
+}
+
+.mainHeading-1 {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-8xl);
+}
+
+.mainHeadingLight {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-9xl);
+}
+
+.HeadingParaGraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-2md);
+}
+
+.sub-heading {
+    font-family: var(--ff-secondary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-xxs);
+}
+
+.card-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-xxl);
+}
+
+.card-heading-light {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-xxxl);
+}
+
+.card-paragraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-md);
+}
+
+.card-btn {
+    font-family: var(--ff-secondary);
+    color: var(--secondary-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-smm);
+}
+
+.numbring-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-xl);
+}
+
+.numbring-paragraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-md);
+}
+
+.slider-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-5xl);
+}
+
+.slider-heading-light {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-7xl);
+}
+
+.slider-section-btn {
+    font-family: var(--ff-secondary);
+    color: var(--secondary-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-smm);
+}
+
+.vertical-slider {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-smm);
+}
+
+.last-section-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-2lg);
+}
+
+.last-section-bold-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-lg);
+}
+
+.last-section-paragraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-smm);
+}
+
+.goto-btn {
+    font-family: var(--ff-secondary);
+    color: var(--secondary-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-smm);
+}
+
+.footer-paragraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-smm);
+}
+
+.footer-btn-txt {
+    font-family: var(--ff-secondary);
+    color: var(--primary-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-xs);
+}
+
+.check-box-txt {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-sm);
+}
+
+.footer-bold-link {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--extraBold);
+    font-size: var(--fs-smm);
+}
+
+.footer-links {
+    font-family: var(--ff-secondary);
+    color: var(--sucess-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-xs);
+}
+
+.footer-card-heading {
+    font-family: var(--ff-secondary);
+    color: var(--white-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-xs);
+}
+
+.footer-card-paragraph {
+    font-family: var(--ff-primary);
+    color: var(--sucess-color);
+    font-weight: var(--regular);
+    font-size: var(--fs-sm);
+}
+
+.copyright {
+    font-family: var(--ff-secondary);
+    color: var(--sucess-color);
+    font-weight: var(--semiBold);
+    font-size: var(--fs-xs);
+}
