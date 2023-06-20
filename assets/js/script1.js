@@ -1,11 +1,61 @@
 $(".slick-slider").slick({
-  slidesToShow: 3,
+  slidesToShow: 4,
   infinite: true,
   slidesToScroll: 1,
-  // autoplay: true,
-  autoplaySpeed: 700 ,
-  dots: true, Boolean
+  centermode: true,
+  cssEase: "linear",
+  autoplay: true,
+  arrows: true,
+  prevArrow: $(".prev"),
+  nextArrow: $(".Next"),
+  autoplaySpeed: 2000,
+  // speed: 4500,
+  // dots: true,
+  Boolean,
   // arrows: false, Boolean
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+       
+      },
+    },
+    {
+      breakpoint: 321,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+       
+      },
+    },
+  ],
 });
+
 
 
