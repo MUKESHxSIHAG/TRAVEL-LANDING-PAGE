@@ -210,7 +210,7 @@
 /* font-color */
 
 /* responsive */
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     :root {
         --fs-xxs: 12px;
         --fs-xs: 14px;
@@ -292,7 +292,7 @@
         --fs-7xl: 40px;
 
     }
-}
+} */
 
 .navLinks {
     font-family: var(--ff-primary);

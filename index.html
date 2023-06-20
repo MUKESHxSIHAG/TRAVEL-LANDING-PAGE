@@ -23,7 +23,7 @@
     <nav>
         <div class="my-container pt-4">
             <div class="d-flex justify-content-between align-items-center mt-4">
-                <div class="d-flex gap-5 mb-0">
+                <div class="d-flex gap-5 w-100 mb-0">
                     <div class="d-flex align-items-center">
                         <img class="" src="/assets/images/png/travel-page-logo.png" alt="Page-Logo">
                         <h2 class="ff-sem fs-20 fw-700 mb-0 black-color">Salty</h2>
@@ -34,21 +34,24 @@
                         <span></span>
                     </label>
                     <input type="checkbox" id="iconbox" hidden class="d-none">
-                    <ul class="d-flex  gap-4 pt-27 pb-27 sm-screen mb-0">
+                  <div class="sm-screen d-flex justify-content-between w-100">
+                    <ul class="d-flex  gap-4 pt-27 pb-27 mb-0">
                         <li class="mb-0"><a class="ff-poppins fw-400 fs-16 hold-color" href="#">Home</a></li>
                         <li><a class="ff-poppins fw-400 fs-16 hold-color" href="#">About Us </a></li>
                         <li><a class="ff-poppins fw-400 fs-16 hold-color" href="#">Destinations</a></li>
                         <li><a class="ff-poppins fw-400 fs-16 hold-color" href="#">Tours</a></li>
                         <li><a class="ff-poppins fw-400 fs-16 hold-color" href="#">Blog</a></li>
                     </ul>
+                    <div class="d-flex justify-content-end mb-0">
+                        <ul class="d-flex align-items-center gap-1">
+                            <li><a class="ff-poppins fs-16 fw-500 dark-color nav-btn" href="#">Book Now <img
+                                        src="/assets/images/png/telegram-logo.png" alt="Telegram-Logo"></a></li>
+                        </ul>
+                    </div>
+                  </div>
 
                 </div>
-                <div class="d-flex justify-content-end mb-0">
-                    <ul class="d-flex align-items-center gap-1">
-                        <li><a class="ff-poppins fs-16 fw-500 dark-color nav-btn" href="#">Book Now <img
-                                    src="/assets/images/png/telegram-logo.png" alt="Telegram-Logo"></a></li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
 
@@ -103,37 +106,142 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 pt-3 d-flex justify-content-center">
-                    <img class="w-100" src="/assets/images/png/header-section-main.png" alt="Header-section-img">
+                    <img class="" src="/assets/images/png/header-section-main.png" alt="Header-section-img">
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- ******mainSection-!1!******** -->
 
     <main class="pt-5">
         <div class="my-container pt-5">
-            <h2 class="ff-inter fw-600 fs-56 black-color">Categories</h2>
-            <p class="ff-inter fw-400 fs-16 secondary-color max-370">Here are lots of interesting destinations to visit,
-                but don’t be confused—they’re already grouped by category.</p>
-            <div class="move_sl pt-1 pb-5">
-                <div class="box-2">
-                    <img src="/assets/images/png/Beach.png" alt="Beach">
-                    <div class="box-content">
-                        <ul class="social">
-                            <li><a class="text" href="#">Visit</a></li>
-                        </ul>
+            <div class="d-flex justify-content-between">
+                <h2 class="ff-inter fw-600 fs-56 black-color">Categories</h2>
+                <div class="d-flex gap-2 justify-content-end">
+                    <div>
+                        <a class="prev1" href="#"><svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134" />
+                                <path d="M30 33L24 27L30 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                    <div>
+                        <a class="Next1" href="#"><svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134" />
+                                <path d="M24 33L30 27L24 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <div class="px-4"><a class="img-hover" href="#"><img class="w-100" src="/assets/images/png/Desert.png" alt="Desert"></a></div>
-                <div class="px-4"><a class="img-hover" href="#"><img class="w-100" src="/assets/images/png/Mountain.png" alt="Mountain"></a></div>
-                <div class="px-4"><a class="img-hover" href="#"><img class="w-100" src="/assets/images/png/Temple.png" alt="Temple"></a></div>
-                <div class="px-4"><a class="img-hover" href="#"><img class="w-100" src="/assets/images/png/Tower.png" alt="Tower"></a></div>
-                <div class="px-4"><a class="img-hover" href="#"><img class="w-100" src="/assets/images/png/Pyramid.png" alt="Pyramid"></a></div>
+            </div>
+            <p class="ff-inter fw-400 fs-16 secondary-color max-370 pt-3">Here are lots of interesting destinations to
+                visit,
+                but don’t be confused—they’re already grouped by category.</p>
+
+            <div class="move_sl pt-1 pb-5 pt-5 d-flex justify-content-center align-items-center">
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Beach.png" alt="Beach"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Beach
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Desert.png" alt="Desert"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Desert
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Mountain.png" alt="Mountain"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Mountain
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Temple.png" alt="Temple">
+                        <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Temple</p>
+                    </a></div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Tower.png" alt="Tower"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Tower
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Pyramid.png" alt="Pyramid"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Pyramid
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Desert.png" alt="Desert"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Beach
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Mountain.png" alt="Mountain"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Mountain
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Temple.png" alt="Temple"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Temple
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Tower.png" alt="Tower"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Tower
+                    </p>
+                </div>
+                <div class="px-4 d-flex justify-content-center align-items-center flex-column"><a class="img-hover" href="#"><img class="border-radius-pic"
+                            src="/assets/images/png/Pyramid.png" alt="Pyramid"></a>
+                    <p class="ff-inter fw-500 fs-26 black-color d-flex justify-content-center align-items-center">Pyramid
+                    </p>
+                </div>
 
             </div>
         </div>
 
     </main>
+
+
+
+    <!-- ******Section-!2!******** -->
+
+    <section>
+        <div class="my-container">
+            <div class="row"> 
+                <div class="col-lg-6 col-sm-8 d-flex justify-content-center pt-5">
+                    <img src="/assets/images/png/boy-1.png" alt="Boy-Image" class="">
+                </div>
+                <div class="col-lg-6 col-12 pt-5">
+                    <h2 class="ff-inter fw-600 fs-20 dark-color txt-center">Our Experience</h2>
+                    <h2 class="ff-inter fw-600 fs-56 black-color txt-center">Our Stories Have Adventures</h2>
+                    <p class="ff-inter fw-400 fs-18 secondary-color txt-center">We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our
+                    specialties. Start your adventure now! Nature has already called you!</p>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4">
+                            <div class="square-box d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="ff-inter fs-46 fw-600 dark-color pd-1">12K+</h2>
+                                <p class="ff-inter fw-400 fs-21 light-color pd-2">Succes <br> Journey</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mt-4">
+                            <div class="square-box d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="ff-inter fs-46 fw-600 dark-color pd-1">16+</h2>
+                                <p class="ff-inter fw-400 fs-21 light-color pd-2">Awards <br> Winning</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mt-4">
+                            <div class="square-box d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="ff-inter fs-46 fw-600 dark-color pd-1">20+</h2>
+                                <p class="ff-inter fw-400 fs-21 light-color pd-2">Years Of <br>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

@@ -1,39 +1,35 @@
 $('.move_sl').slick({
-    dots: true,
+    dots: false,
     arrows: true,
-    infinite: false,
-    speed: 0,
+    infinite: true,
+    speed: 4500,
     slidesToShow: 6,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 0,
-    // vertical: true,
-    // verticalSwiping: true,
-    cssEase: 'linear',
+    // autoplay: true,
+    // autoplaySpeed: 0,
+    prevArrow: $(".prev1"),
+    nextArrow: $(".Next1"),
+    // cssEase: 'linear',
     responsive: [
         {
             breakpoint: 992,
-            settings: {
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 768,
             settings: {
                 slidesToShow: 4,
                 slidesToScroll: 1,
             }
         },
         {
-            breakpoint: 576,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                infinite: true,
-                dots: true
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
             }
         },
         {
