@@ -48,9 +48,6 @@
     --bright-color: #9498A4;
 }
 
-
-
-
 /* *********Font-sizes********** */
 
 .fs-12 {
@@ -205,42 +202,97 @@
 .hold-color {
     color: var(--hold-color);
 }
-.bright-color{
+
+.bright-color {
     color: var(--bright-color);
 }
 
+/* font-color */
 
+/* responsive */
+@media (max-width:1200px) {
+    :root {
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-smm: 18px;
+        --fs-md: 19px;
+        --fs-2md: 20px;
+        --fs-lg: 21px;
+        --fs-2lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 26px;
+        --fs-xxxl: 28px;
+        --fs-4xl: 30px;
+        --fs-5xl: 40px;
+        --fs-6xl: 46px;
+        --fs-7xl: 40px;
 
+    }
+}
 
+@media (max-width:992px) {
+    :root {
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-smm: 18px;
+        --fs-md: 19px;
+        --fs-2md: 20px;
+        --fs-lg: 21px;
+        --fs-2lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 26px;
+        --fs-xxxl: 28px;
+        --fs-4xl: 30px;
+        --fs-5xl: 40px;
+        --fs-6xl: 46px;
+        --fs-7xl: 40px;
 
+    }
+}
 
+@media (max-width:768px) {
+    :root {
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-smm: 18px;
+        --fs-md: 19px;
+        --fs-2md: 20px;
+        --fs-lg: 21px;
+        --fs-2lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 26px;
+        --fs-xxxl: 28px;
+        --fs-4xl: 30px;
+        --fs-5xl: 40px;
+        --fs-6xl: 46px;
+        --fs-7xl: 40px;
 
+    }
+}
 
+@media (max-width:576px) {
+    :root {
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-smm: 18px;
+        --fs-md: 19px;
+        --fs-2md: 20px;
+        --fs-lg: 21px;
+        --fs-2lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 26px;
+        --fs-xxxl: 28px;
+        --fs-4xl: 30px;
+        --fs-5xl: 40px;
+        --fs-6xl: 46px;
+        --fs-7xl: 40px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+}
 
 .navLinks {
     font-family: var(--ff-primary);
@@ -248,12 +300,6 @@
     font-weight: var(--regular);
     font-size: var(--fs-md);
 }
-
-
-
-
-
-
 
 
 
