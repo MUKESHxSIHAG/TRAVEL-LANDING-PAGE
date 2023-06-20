@@ -1,10 +1,11 @@
 $(".slick-slider").slick({
   slidesToShow: 3,
-  infinite: false,
+  infinite: true,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  // dots: false, Boolean
+  // autoplay: true,
+  autoplaySpeed: 700 ,
+  dots: true, Boolean
   // arrows: false, Boolean
 });
+
 
