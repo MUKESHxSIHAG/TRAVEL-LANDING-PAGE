@@ -1,5 +1,5 @@
 $(".slick-slider").slick({
-  slidesToShow: 4,
+  slidesToShow:4,
   infinite: true,
   slidesToScroll: 1,
   centermode: true,
@@ -55,6 +55,23 @@ $(".slick-slider").slick({
       },
     },
   ],
+});
+$(".slick-slider2").slick({
+  slidesToShow: 1,
+  infinite: true,
+  slidesToScroll: 1,
+  centermode: true,
+  cssEase: "linear",
+  autoplay: false,
+  arrows: true,
+  prevArrow: $(".prev1"),
+  nextArrow: $(".Next1"),
+  autoplaySpeed: 0,
+  // speed: 4500,
+  // dots: true,
+  Boolean,
+  // arrows: false, Boolean
+ 
 });
 
 
