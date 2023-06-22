@@ -2,15 +2,22 @@ $('.move_sl').slick({
     dots: false,
     arrows: true,
     infinite: true,
-    speed: 4500,
+    speed: 1000,
     slidesToShow: 6,
     slidesToScroll: 1,
     // autoplay: true,
     // autoplaySpeed: 0,
-    prevArrow: $(".prev1"),
-    nextArrow: $(".Next1"),
+    prevArrow: $(".previous"),
+    nextArrow: $(".Next_Btn"),
     // cssEase: 'linear',
     responsive: [
+        {
+            breakpoint: 1270,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+            }
+        },
         {
             breakpoint: 992,
             settings: {
@@ -44,3 +51,5 @@ $('.move_sl').slick({
         // instead of a settings object
     ]
 });
+
+AOS.init();
