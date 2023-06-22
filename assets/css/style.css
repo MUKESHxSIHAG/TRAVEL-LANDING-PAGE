@@ -307,6 +307,11 @@ nav ul:hover a{
        width: 70px;
 left: 0;
    }
-
-
+}
+@media (max-width:490px) {
+.box-3-position {
+        transform: translateY(-20px);
+        position: absolute;
+        left: 110px;
+    }
 }
